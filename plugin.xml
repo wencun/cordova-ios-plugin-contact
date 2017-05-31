@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com.YHload.YHContact" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>YHContact</name>
+    <js-module name="YHContact" src="www/YHContact.js">
+        <clobbers target="cordova.plugins.YHContact" />
+    </js-module>
+    
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="YHContact">
+                <param name="ios-package" value="YHContact"/>
+            </feature>
+        </config-file>
+        
+        
+        <!-- 引入的.h .m 文件 -->
+        <header-file src="src/ios/YHContact.h" />
+        <source-file src="src/ios/YHContact.m"/>
+        
+        <!-- 向系统plist文件添加Key -->
+        <config-file target="*-Info.plist" parent="NSContactsUsageDescription">
+            <string>是否允许此App使用你的通讯录？</string>
+        </config-file>
+    </platform>
+</plugin>
