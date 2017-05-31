@@ -11,13 +11,18 @@
 `sudo cordova plugin add https://github.com/wencun/cordova-ios-plugin-contact.git`
 ## Usage
 ### JS Page
-`openContact(){`</br>
-  `cordova.plugins.YHContact.getContact("", (results) => {`</br>
-     `alert(JSON.stringify(results));`</br>
-    `}, (errMsg) => {`</br>
-      `alert(errMsg);`</br>
-    `});`</br>
-  `}`</br>
-</br>
+<pre>
+<code>
+openContact(){
+    cordova.plugins.YHContact.getContact("", (results) => {
+       alert(JSON.stringify(results));
+    }, (errMsg) => {
+      alert(errMsg);
+    });
+  }
+</code>
+</pre>
 ### Html Page
+
 `<button ion-button full  (click)="openContact()" color="dark">contact show!</button>`
+
