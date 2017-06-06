@@ -1,6 +1,6 @@
 {
   "name": "com.YHload.YHContact",
-  "version": “1.0.0”,
+  "version": "1.0.0",
   "description": "cordova project add plugin with ios contact.",
   "cordova": {
     "id": "com.YHload.YHContact",
@@ -14,7 +14,7 @@
   },
   "keywords": [
     "cordova",
-    “Contact”,
+    "Contact",
     "cordova-ios"
   ],
   "engines": [
@@ -23,7 +23,7 @@
       "version": ">=3.0.0"
     }
   ],
-  "author": “wencun”,
+  "author": "wencun",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/wencun/cordova-ios-plugin-contact/issues"
