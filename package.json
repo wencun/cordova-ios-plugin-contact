@@ -23,7 +23,7 @@
       "version": ">=3.0.0"
     }
   ],
-  "author": “wench”,
+  "author": “wencun”,
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/wencun/cordova-ios-plugin-contact/issues"
