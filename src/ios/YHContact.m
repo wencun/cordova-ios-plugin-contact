@@ -71,7 +71,9 @@
 - (void)getContactInfo:(BOOL)isGranted{
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];
     if(isGranted){
-        [dict setObject:self.array forKey:@"contacts"];
+        NSData *data = [NSJSONSerialization dataWithJSONObject:self.array options:NSJSONWritingPrettyPrinted error:nil];
+        NSString *str = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+        [dict setObject:str forKey:@"contacts"];
         [dict setObject:@(self.array.count) forKey:@"totalCount"];
     }else{
         [dict setObject:@(-1) forKey:@"totalCount"];
