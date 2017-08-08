@@ -21,5 +21,9 @@
         <config-file target="*-Info.plist" parent="NSContactsUsageDescription">
             <string>是否允许此App使用你的通讯录？</string>
         </config-file>
+        <!-- 把文本框中的长按弹出的复制粘贴改成中文 -->
+        <config-file target="*-Info.plist" parent="CFBundleDevelopmentRegion">
+            <string>zh_CN</string>
+        </config-file>
     </platform>
 </plugin>
