@@ -8,6 +8,6 @@
 
 #import <Cordova/CDV.h>
 
-@interface YHContact : CDVPlugin
+@interface HKDContact : CDVPlugin
 - (void)getContact:(CDVInvokedUrlCommand *)command;
 @end
