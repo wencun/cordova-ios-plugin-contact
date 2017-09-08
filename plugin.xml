@@ -12,7 +12,6 @@
             </feature>
         </config-file>
         
-        
         <!-- 引入的.h .m 文件 -->
         <header-file src="src/ios/HKDContact.h" />
         <source-file src="src/ios/HKDContact.m"/>

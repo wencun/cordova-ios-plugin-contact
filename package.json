@@ -1,7 +1,7 @@
 {
   "name": "com.YHload.HKDContact",
   "version": "1.0.0",
-  "description": "cordova project add plugin with ios contact.",
+  "description": "",
   "cordova": {
     "id": "com.YHload.YHContact",
     "platforms": [

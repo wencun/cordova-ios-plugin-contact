@@ -16,7 +16,6 @@
 
 @end
 
-
 @implementation HKDContact
 
 - (void)getContact:(CDVInvokedUrlCommand *)command{

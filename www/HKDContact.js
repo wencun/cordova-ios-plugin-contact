@@ -4,6 +4,4 @@ module.exports = {
 
     cordova.exec(successCallback, errorCallback, "HKDContact", "getContact", [arg]);
   }
-
-
 };
