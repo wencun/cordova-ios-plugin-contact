@@ -8,7 +8,7 @@
     <platform name="ios">
         <config-file parent="/*" target="config.xml">
             <feature name="YHContact">
-                <param name="ios-package" value="HKDContact"/>
+                <param name="ios-package" value="YHContact"/>
             </feature>
         </config-file>
         
