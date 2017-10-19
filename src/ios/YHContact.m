@@ -64,6 +64,8 @@
                     NSLog(@"授权失败, error=%@", error);
                 }
             }];
+        }else if(authorizationStatus == CNAuthorizationStatusDenied){
+            [self getContactInfo:NO];
         }
     }
 }
