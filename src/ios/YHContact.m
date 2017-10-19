@@ -6,17 +6,18 @@
 //
 //
 
-#import "HKDContact.h"
+#import "YHContact.h"
 #import <Contacts/Contacts.h>
 
-@interface HKDContact()
+@interface YHContact()
 
 @property (nonatomic, copy) NSString *callbackId;
 @property (nonatomic, strong) NSMutableArray *array;
 
 @end
 
-@implementation HKDContact
+
+@implementation YHContact
 
 - (void)getContact:(CDVInvokedUrlCommand *)command{
     NSDictionary *dict  = [command argumentAtIndex:0 withDefault:nil];
